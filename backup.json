@@ -1,0 +1,124 @@
+{
+  "UpDates": [
+    {
+      "id": "95254f60-9a9f-11eb-a9da-f9b1ff7d6a4b",
+      "type": "products",
+      "props": {
+        "name": "Fanta",
+        "productQt": "20",
+        "buyingPrice": "300",
+        "branch": "632f64a0-9a9f-11eb-a9da-f9b1ff7d6a4b",
+        "tax": true,
+        "group": {
+          "group": "Category One",
+          "id": "92491f32-7fcc-43e9-9f7b-7e54a4117ace",
+          "colors": {
+            "textColor": "#fff",
+            "backgroundColor": "#3b3b3b"
+          }
+        },
+        "recipe": "",
+        "ProductSupplier": {},
+        "expiryDate": "",
+        "MasterState": false,
+        "invoice": "",
+        "portion": [
+          {
+            "id": "input_0",
+            "barcode1": "",
+            "barcode2": "",
+            "barcode3": "",
+            "barcode4": "",
+            "barcode5": "",
+            "multiplier": "",
+            "alertOut": 1,
+            "price": "400"
+          }
+        ],
+        "ingredient": "not set",
+        "_type": "set",
+        "data": null
+      }
+    },
+    {
+      "id": "3e1524a0-9b64-11eb-ba5d-cd1529116907",
+      "type": "products",
+      "props": {
+        "name": "Black Label",
+        "productQt": "20",
+        "buyingPrice": "10",
+        "branch": "632f64a0-9a9f-11eb-a9da-f9b1ff7d6a4b",
+        "tax": true,
+        "group": {
+          "group": "beer",
+          "id": "5f5d9e1f-7850-4177-b240-5f219afb8ab2",
+          "colors": {
+            "textColor": "#fff",
+            "backgroundColor": "#3b3b3b"
+          }
+        },
+        "recipe": "",
+        "ProductSupplier": {},
+        "expiryDate": "",
+        "MasterState": false,
+        "invoice": "",
+        "portion": [
+          {
+            "id": "input_0",
+            "barcode1": "",
+            "barcode2": "",
+            "barcode3": "",
+            "barcode4": "",
+            "barcode5": "",
+            "multiplier": "",
+            "alertOut": 1,
+            "price": "15"
+          }
+        ],
+        "ingredient": "not set",
+        "_type": "set",
+        "data": null
+      }
+    },
+    {
+      "id": "b08b90a0-9b69-11eb-9ba4-f1462d1be97c",
+      "type": "products",
+      "props": {
+        "name": "Mosi big",
+        "productQt": "20",
+        "buyingPrice": "12",
+        "branch": "632f64a0-9a9f-11eb-a9da-f9b1ff7d6a4b",
+        "tax": true,
+        "group": {
+          "group": "beer",
+          "id": "5f5d9e1f-7850-4177-b240-5f219afb8ab2",
+          "colors": {
+            "textColor": "#fff",
+            "backgroundColor": "#3b3b3b"
+          }
+        },
+        "recipe": "",
+        "ProductSupplier": {},
+        "expiryDate": "",
+        "MasterState": false,
+        "invoice": "",
+        "portion": [
+          {
+            "id": "input_0",
+            "barcode1": "",
+            "barcode2": "",
+            "barcode3": "",
+            "barcode4": "",
+            "barcode5": "",
+            "multiplier": "",
+            "alertOut": 1,
+            "price": "17"
+          }
+        ],
+        "ingredient": "not set",
+        "_type": "set",
+        "data": null
+      }
+    }
+  ]
+}

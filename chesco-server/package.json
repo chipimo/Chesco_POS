@@ -1,0 +1,33 @@
+{
+  "name": "switch_smart",
+  "version": "1.0.0",
+  "description": "switch smart api",
+  "main": "index.js",
+  "author": "melvin chipimo",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "node": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "custom-env": "^1.0.0",
+    "express": "^4.16.4",
+    "fs-extra": "^8.0.0", 
+    "global": "^4.3.2",
+    "heroku": "^7.19.4",
+    "jsonfile": "^5.0.0",
+    "knex": "^0.16.3",
+    "knex-generic-errors": "^0.1.5",
+    "lodash": "^4.17.11",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.18.9",
+    "objection": "^2.1.2",
+    "pg": "^7.8.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2",
+    "zip-local": "^0.3.4"
+  }
+}

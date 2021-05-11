@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chesco POS</title>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/mdb.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/LoaderCss.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styleDbForm.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/css-loaders-step2/css/load6.css"
+    />
+  </head>
+
+  <body
+    style="
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      background-color: rgb(80, 108, 170);
+      -webkit-user-select: none;
+      cursor: default;
+    "
+  >
+    <div id="main" style="width: 100%; height: 100vh">
+      <div
+        style="
+          color: #ccc;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          margin-top: 20%;
+        "
+      >
+        <h1 style="font-weight: 100; font-size: 55px; padding: 0; margin: 0">
+          Chesco POS
+        </h1>
+        <div id="loader_ind">Loading...</div>
+        <div class="load6">
+          <div class="loader"></div>
+        </div>
+      </div>
+    </div>
+    <div style="color: #ccc" id="db_form">
+      <div class="wrapper fadeInDown">
+        <div style="margin-top: 13%" />
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active">Set up database server connection</h2>
+          <div></div>
+
+          <!-- Login Form -->
+          <form method="post">
+            <input
+              type="text"
+              id="host"
+              class="fadeIn second"
+              name="host"
+              placeholder="Server Host"
+            />
+
+            <input
+              type="text"
+              id="user"
+              class="fadeIn third"
+              name="user"
+              placeholder="Db User"
+            />
+            <input
+              type="number"
+              id="port"
+              class="fadeIn third"
+              name="port"
+              placeholder="Db Port"
+            />
+            <input
+              type="text"
+              id="database"
+              class="fadeIn third"
+              name="database"
+              placeholder="Database"
+            />
+            <input
+              type="text"
+              id="password"
+              class="fadeIn third"
+              name="password"
+              placeholder="Db Password"
+            />
+
+            <button id="submit" class="fadeIn fourth" name="login_user">
+              Save changes and continue
+            </button>
+
+            <button id="submit_local" class="fadeIn fourth" name="login_user">
+              Use local settings and continue
+            </button>
+          </form>
+          <!---
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div>
+          --->
+        </div>
+      </div>
+    </div>
+
+    <!-- <div style="position: fixed; bottom: 0px">
+      <button id="closeBtn" style="padding: 10px">Close App</button>
+    </div> -->
+  </body>
+     
+  <!-- <script>
+    require("./configFile.js"); 
+  </script> -->
+</html>

@@ -1,0 +1,17 @@
+.HideLoader {
+  display: none;
+}
+
+.showDbForm {
+  display: block;
+}
+
+.form_layout{
+    width: 100%;
+    height: 100%;
+}
+
+.form_layout .inner_form{
+    
+}
+
